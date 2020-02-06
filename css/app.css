@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+}
+label, input {
+	display: block;
+}
+.btn__custom {
+	width: 100%;
+}
+.rdc__container {
+	width: 80%;
+	margin: auto;
+}
+.rdc__container__form {
+	width: 40%;
+	margin: 20px auto;
+	display: block;
+	border: 1px solid #CCC;
+	padding: 20px;
+	background: #FFF !important;
+	border-radius: 10px;
+}
+.rdc__dashboard {
+	background: yellowgreen;
+	padding: 20px;
+	color: #000;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+.rdc__nav {
+	width: 20%;
+	background: #000;
+	position: fixed;
+	height: 100%;
+  z-index: 100;
+  overflow: auto;
+}
+.rdc__nav__avatar {
+	margin: 82 0;
+}
+.rdc__nav__name {
+	text-align: center;
+	color: #666;
+	font-weight: bold;
+}
+.avatar {
+	border: 3px solid #ccc;
+}
+.rdc__nav ul {
+	margin: 10 0;
+	padding: 10px;
+}
+.rdc__nav li a {
+	display: block;
+	border-bottom: 1px solid #111;
+	padding: 20px;
+	color: yellowgreen;
+}
+.rdc__nav li a:hover {
+	background: #111;
+	border-bottom: 1px solid yellowgreen;
+}
+.rdc__context {
+  padding-top: 100px;
+}
+.rdc__slider {
+  background-image: url(../images/slide.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+
+}

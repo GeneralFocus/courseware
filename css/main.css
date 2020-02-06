@@ -1,0 +1,82 @@
+
+
+.CircleDash{
+  border-radius: 100%;
+   width: 200px;
+   height: 200px;
+   padding-top: 30px;
+   margin-left: 60px;
+   margin-right: 30px;
+   border: 2px solid darkorange;
+   color: #555;
+   text-align: center;
+}
+
+.CircleDash h2 {
+  font-size: 80px;
+}
+
+.CircleDash b {
+  padding-left: 10px;
+  text-align: center;
+  color: royalblue;
+  font-size: 10px;
+}
+
+.CircleDash .third {
+  padding-left: 0px !important;
+}
+
+.alignCircleCenter{
+  margin: auto;
+  align-content: center;
+}
+
+
+    .small {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+      }
+
+      .navbar {
+        background-color: #4b1e56;
+        color: #FFF;
+      }
+
+      .navbar a{
+        color: #FFF !important;
+      }
+
+      .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+        background-color: #125658 !important;
+      }
+
+      .btn-custom {
+        background-color: #125658 !important;
+      }
+
+
+
+
+#dropzone {
+  padding: 100px;
+  border: 2px dashed #ccc;
+  text-align: center;
+}
+
+.callback {
+  padding: 50px;
+}
+
+#my-file-selector {
+  visibility: hidden;
+  height: 2px;
+}
+
+.uploadButton
+{
+  align-self: center;
+  align-content: center;
+  margin-left: 30px;
+}
